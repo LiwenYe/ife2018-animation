@@ -1,0 +1,25 @@
+main{
+    text-align: center;
+}
+main h1{
+    transition: color 2s ease-in-out;
+}
+main span{
+    width: 0px;
+    display: block;
+    margin: 10px auto;
+    height: 3px;
+    background-color: deepskyblue;
+    transition: width 2s ease-in-out;
+}
+main button{
+    width: 130px;
+    height: 40px;
+    font-size: 16px;
+}
+.colorChange{
+    color: deepskyblue;
+}
+.widthChange{
+    width: 130px;
+}

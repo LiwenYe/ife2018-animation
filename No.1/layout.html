@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>No.1 - 制作一个简单的菜单动画效果</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <main>
+        <h1>前端学院<span></span></h1>
+        <button id="change">切换样式</button>
+    </main>
+
+    <script>
+        let btn = document.getElementById('change');
+        let h1 = document.querySelector('h1');
+        let border = document.querySelector('span');
+        btn.addEventListener('click',function () {
+            h1.classList.toggle("colorChange");
+            border.classList.toggle('widthChange');
+        })
+    </script>
+</body>
+</html>
