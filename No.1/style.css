@@ -2,7 +2,7 @@ main{
     text-align: center;
 }
 main h1{
-    transition: color 2s ease-in-out;
+    transition: color 0.5s ease-in-out;
 }
 main span{
     width: 0px;
@@ -10,7 +10,7 @@ main span{
     margin: 10px auto;
     height: 3px;
     background-color: deepskyblue;
-    transition: width 2s ease-in-out;
+    transition: width 0.5s ease-in-out;
 }
 main button{
     width: 130px;
